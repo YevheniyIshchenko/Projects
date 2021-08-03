@@ -119,6 +119,7 @@
 .features {
   display: flex;
   position: relative;
+  margin-bottom: 104px;
 }
 @media screen and (max-width: 1399px) {
   .features {
@@ -499,6 +500,7 @@
   }
 }
 .social-links__item {
+  text-decoration: none;
   margin-left: 20px;
 }
 .social-links__item:first-child {
@@ -655,14 +657,19 @@
 }
 .order__illustration {
   max-width: 200px;
+  display: block;
+  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
+    margin: 0;
+    display: inline;
     max-width: 269px;
     margin-right: 121px;
   }
 }
 .order__title {
+  text-align: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -670,11 +677,24 @@
   margin-top: 40px;
   margin-bottom: 0;
 }
+@media screen and (min-width: 1400px) {
+  .order__title {
+    text-align: left;
+  }
+}
 .order__text {
   font-size: 22px;
   line-height: 32px;
-  margin: 0;
   margin-top: 18px;
+  width: 290px;
+  height: 167px;
+}
+@media screen and (min-width: 1400px) {
+  .order__text {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
 }
 @media screen and (min-width: 1400px) {
   .order__form {
@@ -684,7 +704,7 @@
 }
 .order__email {
   margin-top: 40px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
   height: 48px;
@@ -788,6 +808,7 @@
 .audience__container {
   display: flex;
   flex-direction: column;
+  margin: auto;
   align-items: center;
   width: 320px;
 }
@@ -924,7 +945,7 @@
   align-items: center;
   margin-top: 0;
   margin-bottom: 15px;
-  background-color: white;
+  background-color: #fff;
   width: 290px;
   height: 300px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -947,7 +968,7 @@
   cursor: pointer;
 }
 .audience__cards .user-card:hover .user-image__description {
-  color: white;
+  color: #fff;
 }
 .audience__cards .user-card:last-child {
   margin-bottom: 50px;
@@ -966,7 +987,7 @@
   margin-bottom: 33px;
 }
 .audience__cards .user-card .user-image__description:hover {
-  color: white;
+  color: #fff;
 }
 @media screen and (min-width: 1400px) {
   .audience__cards .user-card .user-image__description {

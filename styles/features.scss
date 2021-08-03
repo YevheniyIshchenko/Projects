@@ -1,6 +1,7 @@
 .features {
   display: flex;
   position: relative;
+  margin-bottom: 104px;
   @include for-large-down {
     display: none;
   }
