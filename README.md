@@ -1,11 +1,11 @@
-# first_landing_page
+# foundation-website
 
-
+foundation-website
 https://yevheniyishchenko.github.io/first_landing_page/
 
-Tech stack:
-
--HTML
--CSS
--SASS
--BEM
+The teach task is:
+HTML 5
+CSS 3
+Flexbox
+BEM methodology
+Sass
