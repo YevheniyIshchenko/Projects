@@ -1,7 +1,6 @@
 # foundation-website
 
-foundation-website
-https://yevheniyishchenko.github.io/first_landing_page/
+https://yevheniyishchenko.github.io/foundation-website/
 
 The teach task is:
 
